@@ -1,0 +1,39 @@
+.user-name {
+  margin-bottom: 20px;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-block {
+  width: 400px;
+  margin: 4px 0;
+}
+
+
+.submit-button {
+  padding: 11.5px 20px;
+  width: 100%;
+  margin-top: 10px;
+  
+  color: #FFF;
+  background-color: #0366C3;
+
+  border: 1px solid #0366C3;
+  border-radius: 20px;
+
+  text-decoration: none;
+
+  transition: 0.5s;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+
+  background-color: #033b70;
+  border-color: #033b70;
+  
+  transition: 0.5s;
+}
